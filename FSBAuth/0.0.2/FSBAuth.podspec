@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.author       = { "Emile" => "emile@fsbtech.com" }
   s.platform     = :ios, '6.1'
 
-  s.source       = { :git => "git://git.dev.fsbtech.com/FSBAuth", :tag => "#{s.version}" }
-  s.source_files  = 'FSBAuth/Classes', 'FSBAuth/Classes/**/*.{h,m}'
+  s.source       = { :git => "https://github.com/FSBTech/FSBAuth.git", :tag => "#{s.version}" }
+  s.source_files  = '*.{h,m}'
 
   # s.public_header_files = 'Classes/**/*.h'
 
